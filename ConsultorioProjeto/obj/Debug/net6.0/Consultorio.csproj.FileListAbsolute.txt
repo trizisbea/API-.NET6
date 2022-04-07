@@ -1,0 +1,111 @@
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\appsettings.json
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Consultorio.exe
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Consultorio.deps.json
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Consultorio.runtimeconfig.json
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Consultorio.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\ref\Consultorio.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Consultorio.pdb
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.csproj.AssemblyReference.cache
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.AssemblyInfoInputs.cache
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.AssemblyInfo.cs
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.csproj.CoreCompileInputs.cache
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\scopedcss\bundle\Consultorio.styles.css
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.csproj.CopyComplete
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.dll
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\ref\Consultorio.dll
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.pdb
+C:\Users\DSNPACK\Consultorio\obj\Debug\net6.0\Consultorio.genruntimeconfig.cache
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Humanizer.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Npgsql.dll
+C:\Users\DSNPACK\Consultorio\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\appsettings.json
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Consultorio.exe
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Consultorio.deps.json
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Consultorio.runtimeconfig.json
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Consultorio.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\ref\Consultorio.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Consultorio.pdb
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Humanizer.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Npgsql.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DSNPACK\Pablo Codes\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.csproj.AssemblyReference.cache
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.AssemblyInfoInputs.cache
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.AssemblyInfo.cs
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.csproj.CoreCompileInputs.cache
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\scopedcss\bundle\Consultorio.styles.css
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.csproj.CopyComplete
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.dll
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\ref\Consultorio.dll
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.pdb
+C:\Users\DSNPACK\Pablo Codes\obj\Debug\net6.0\Consultorio.genruntimeconfig.cache
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.csproj.AssemblyReference.cache
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.AssemblyInfoInputs.cache
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.AssemblyInfo.cs
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.csproj.CoreCompileInputs.cache
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\appsettings.json
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Consultorio.exe
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Consultorio.deps.json
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Consultorio.runtimeconfig.json
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Consultorio.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\ref\Consultorio.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Consultorio.pdb
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Humanizer.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Npgsql.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\scopedcss\bundle\Consultorio.styles.css
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.csproj.CopyComplete
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.dll
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\ref\Consultorio.dll
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.pdb
+C:\Users\DSNPACK\ConsultorioProjeto\obj\Debug\net6.0\Consultorio.genruntimeconfig.cache
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\DSNPACK\ConsultorioProjeto\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
