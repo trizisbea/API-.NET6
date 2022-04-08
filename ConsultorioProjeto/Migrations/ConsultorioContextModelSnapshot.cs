@@ -24,11 +24,12 @@ namespace Consultorio.Migrations
 
             modelBuilder.Entity("ConsultorioProjeto.Models.Entities.Consulta", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdConsulta")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("integer")
+                        .HasColumnName("id_consulta");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdConsulta"));
 
                     b.Property<DateTime>("DataHorario")
                         .HasColumnType("timestamp with time zone")
@@ -54,7 +55,7 @@ namespace Consultorio.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("status");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdConsulta");
 
                     b.HasIndex("IdEspecialidade");
 
@@ -124,11 +125,12 @@ namespace Consultorio.Migrations
 
             modelBuilder.Entity("ConsultorioProjeto.Models.Entities.Profissional", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdProfissional")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("integer")
+                        .HasColumnName("id_profissional");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdProfissional"));
 
                     b.Property<bool>("Ativo")
                         .HasColumnType("boolean")
@@ -139,7 +141,7 @@ namespace Consultorio.Migrations
                         .HasColumnType("text")
                         .HasColumnName("nome");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdProfissional");
 
                     b.ToTable("Profissionais");
                 });
@@ -149,12 +151,12 @@ namespace Consultorio.Migrations
                     b.Property<int>("EspecialidadesIdEspecialidade")
                         .HasColumnType("integer");
 
-                    b.Property<int>("ProfissionaisId")
+                    b.Property<int>("ProfissionaisIdProfissional")
                         .HasColumnType("integer");
 
-                    b.HasKey("EspecialidadesIdEspecialidade", "ProfissionaisId");
+                    b.HasKey("EspecialidadesIdEspecialidade", "ProfissionaisIdProfissional");
 
-                    b.HasIndex("ProfissionaisId");
+                    b.HasIndex("ProfissionaisIdProfissional");
 
                     b.ToTable("EspecialidadeProfissional");
                 });
@@ -196,7 +198,7 @@ namespace Consultorio.Migrations
 
                     b.HasOne("ConsultorioProjeto.Models.Entities.Profissional", null)
                         .WithMany()
-                        .HasForeignKey("ProfissionaisId")
+                        .HasForeignKey("ProfissionaisIdProfissional")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

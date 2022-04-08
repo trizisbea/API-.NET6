@@ -1195,6 +1195,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AutoMapper >= 11.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.3",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
@@ -1211,11 +1212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\DSNPACK\\ConsultorioProjeto\\Consultorio.csproj",
+      "projectUniqueName": "C:\\Users\\DSNPACK\\API--.NET6\\ConsultorioProjeto\\Consultorio.csproj",
       "projectName": "Consultorio",
-      "projectPath": "c:\\Users\\DSNPACK\\ConsultorioProjeto\\Consultorio.csproj",
+      "projectPath": "C:\\Users\\DSNPACK\\API--.NET6\\ConsultorioProjeto\\Consultorio.csproj",
       "packagesPath": "C:\\Users\\DSNPACK\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\DSNPACK\\ConsultorioProjeto\\obj\\",
+      "outputPath": "C:\\Users\\DSNPACK\\API--.NET6\\ConsultorioProjeto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DSNPACK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1242,6 +1243,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.0.0, )"

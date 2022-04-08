@@ -6,10 +6,24 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Consultorio.Migrations
 {
-    public partial class DataAnnotations : Migration
+    public partial class att : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Especialidades",
+                columns: table => new
+                {
+                    id_especialidade = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    nome = table.Column<string>(type: "text", nullable: false),
+                    ativa = table.Column<bool>(type: "boolean", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Especialidades", x => x.id_especialidade);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Pacientes",
                 columns: table => new
@@ -30,34 +44,14 @@ namespace Consultorio.Migrations
                 name: "Profissionais",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "integer", nullable: false)
+                    id_profissional = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     nome = table.Column<string>(type: "text", nullable: false),
                     ativo = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Profissionais", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Especialidades",
-                columns: table => new
-                {
-                    id_especialidade = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    nome = table.Column<string>(type: "text", nullable: false),
-                    ativa = table.Column<bool>(type: "boolean", nullable: false),
-                    ProfissionalId = table.Column<int>(type: "integer", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Especialidades", x => x.id_especialidade);
-                    table.ForeignKey(
-                        name: "FK_Especialidades_Profissionais_ProfissionalId",
-                        column: x => x.ProfissionalId,
-                        principalTable: "Profissionais",
-                        principalColumn: "Id");
+                    table.PrimaryKey("PK_Profissionais", x => x.id_profissional);
                 });
 
             migrationBuilder.CreateTable(
@@ -71,8 +65,7 @@ namespace Consultorio.Migrations
                     preco = table.Column<decimal>(type: "numeric", nullable: false),
                     id_paciente = table.Column<int>(type: "integer", nullable: false),
                     id_especialidade = table.Column<int>(type: "integer", nullable: false),
-                    id_profissional = table.Column<int>(type: "integer", nullable: false),
-                    Id = table.Column<int>(type: "integer", nullable: false)
+                    id_profissional = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -93,33 +86,31 @@ namespace Consultorio.Migrations
                         name: "FK_Consultas_Profissionais_id_profissional",
                         column: x => x.id_profissional,
                         principalTable: "Profissionais",
-                        principalColumn: "Id",
+                        principalColumn: "id_profissional",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "ProfissionaisEspecialidades",
+                name: "EspecialidadeProfissional",
                 columns: table => new
                 {
-                    IdEspecialidade = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    ProfissionaisId = table.Column<int>(type: "integer", nullable: false),
-                    EspecialidadeId = table.Column<int>(type: "integer", nullable: false)
+                    EspecialidadesIdEspecialidade = table.Column<int>(type: "integer", nullable: false),
+                    ProfissionaisIdProfissional = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ProfissionaisEspecialidades", x => x.IdEspecialidade);
+                    table.PrimaryKey("PK_EspecialidadeProfissional", x => new { x.EspecialidadesIdEspecialidade, x.ProfissionaisIdProfissional });
                     table.ForeignKey(
-                        name: "FK_ProfissionaisEspecialidades_Especialidades_EspecialidadeId",
-                        column: x => x.EspecialidadeId,
+                        name: "FK_EspecialidadeProfissional_Especialidades_EspecialidadesIdEs~",
+                        column: x => x.EspecialidadesIdEspecialidade,
                         principalTable: "Especialidades",
                         principalColumn: "id_especialidade",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ProfissionaisEspecialidades_Profissionais_ProfissionaisId",
-                        column: x => x.ProfissionaisId,
+                        name: "FK_EspecialidadeProfissional_Profissionais_ProfissionaisIdProf~",
+                        column: x => x.ProfissionaisIdProfissional,
                         principalTable: "Profissionais",
-                        principalColumn: "Id",
+                        principalColumn: "id_profissional",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -139,19 +130,9 @@ namespace Consultorio.Migrations
                 column: "id_profissional");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Especialidades_ProfissionalId",
-                table: "Especialidades",
-                column: "ProfissionalId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ProfissionaisEspecialidades_EspecialidadeId",
-                table: "ProfissionaisEspecialidades",
-                column: "EspecialidadeId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ProfissionaisEspecialidades_ProfissionaisId",
-                table: "ProfissionaisEspecialidades",
-                column: "ProfissionaisId");
+                name: "IX_EspecialidadeProfissional_ProfissionaisIdProfissional",
+                table: "EspecialidadeProfissional",
+                column: "ProfissionaisIdProfissional");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -160,7 +141,7 @@ namespace Consultorio.Migrations
                 name: "Consultas");
 
             migrationBuilder.DropTable(
-                name: "ProfissionaisEspecialidades");
+                name: "EspecialidadeProfissional");
 
             migrationBuilder.DropTable(
                 name: "Pacientes");

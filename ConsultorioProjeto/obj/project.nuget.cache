@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GN7YPYptHghw3OEjetTEcL4D4KRXxqPNxROljjrH5L1b+br30sr+yM32bS7neH15r58DvMcZJHETJtRafkJDVQ==",
+  "dgSpecHash": "ocPSdBqneZQb4C+ssjlNylFVjBqHWfkmdKX2ch3D/RkcUf3s5WVvb1A1vimHWPg/IHyAKSuYPKl2IY9gcE58lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DSNPACK\\ConsultorioProjeto\\Consultorio.csproj",
+  "projectFilePath": "C:\\Users\\DSNPACK\\API--.NET6\\ConsultorioProjeto\\Consultorio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DSNPACK\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\DSNPACK\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

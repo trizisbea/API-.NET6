@@ -29,6 +29,10 @@ builder.Services.AddDbContext<ConsultorioContext>(options =>
     );
 });
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+//builder.Services.AddAutoMapper(Assembly.Load();
+//builder.Services.AddAutoMapper(typeof(ConsultorioProfile));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

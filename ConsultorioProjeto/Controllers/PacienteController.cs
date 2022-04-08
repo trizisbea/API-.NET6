@@ -56,5 +56,22 @@ namespace ConsultorioProjeto.Controllers
             //     ? Ok(paciente)
             //     : BadRequest("Paciente não encontrado"); 
         }
+
+        // ****** método post ******
+
+        [HttpPost]
+        public async Task<IActionResult> Post(PacienteAdicionarDto paciente)
+        {
+            if (paciente == null) return BadRequest("Dados Inválidos");
+
+            var pacienteAdicionar = _mapper.Map<Paciente>(paciente);
+
+            _repository.Add(pacienteAdicionar);
+
+            return await _repository.SaveChangesAsync()
+                ? Ok("Paciente adicionado com sucesso")
+                : BadRequest("Erro ao salvar o paciente");
+        }
+
     }
 }

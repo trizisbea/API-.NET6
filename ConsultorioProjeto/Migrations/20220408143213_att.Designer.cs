@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Consultorio.Migrations
 {
     [DbContext(typeof(ConsultorioContext))]
-    [Migration("20220406181039_att10")]
-    partial class att10
+    [Migration("20220408143213_att")]
+    partial class att
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,9 +36,6 @@ namespace Consultorio.Migrations
                     b.Property<DateTime>("DataHorario")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("data_horario");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("integer");
 
                     b.Property<int>("IdEspecialidade")
                         .HasColumnType("integer")
@@ -140,9 +137,6 @@ namespace Consultorio.Migrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("boolean")
                         .HasColumnName("ativo");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("integer");
 
                     b.Property<string>("Nome")
                         .IsRequired()

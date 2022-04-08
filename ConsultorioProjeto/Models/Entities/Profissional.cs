@@ -1,12 +1,13 @@
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ConsultorioProjeto.Models.Entities
 {
-    public class Profissional : Base
-    {
-        // [Key]
-        // [Column("id_profissional")]
-        // public int IdProfissional { get; set; }
+    public class Profissional
+{
+        [Key]
+        [Column("id_profissional")]
+        public int IdProfissional { get; set; }
 
         [Column("nome")]
         public string Nome { get; set; }

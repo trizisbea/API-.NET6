@@ -1,6 +1,5 @@
 using ConsultorioProjeto.Context;
 using ConsultorioProjeto.Dtos;
-using ConsultorioProjeto.Dtos;
 using ConsultorioProjeto.Models.Entities;
 using ConsultorioProjeto.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;

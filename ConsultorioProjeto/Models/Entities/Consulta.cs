@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ConsultorioProjeto.Models.Entities
 {
-    public class Consulta : Base
+    public class Consulta 
     {
-        // [Key]
-        // [Column("id_consulta")]
-        // public int IdConsulta { get; set; }
+        [Key]
+        [Column("id_consulta")]
+        public int IdConsulta { get; set; }
 
         [Required]
         [Column("data_horario")]

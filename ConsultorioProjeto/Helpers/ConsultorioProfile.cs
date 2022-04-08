@@ -10,10 +10,15 @@ namespace ConsultorioProjeto.Helpers
     {
         public ConsultorioProfile()
         {
-            CreateMap<Paciente, PacienteDetalhesDto>();
+            //mapeamento de uma entidade ignorando um dos atributos
+            CreateMap<Paciente, PacienteDetalhesDto>()
+            .ForMember(dest => dest.Email, opt => opt.Ignore()); 
+
             CreateMap<Consulta, ConsultaDto>()
             .ForMember(dest => dest.Especialidade, opt => opt.MapFrom(src => src.Especialidade.Nome))
             .ForMember(dest => dest.Profissional, opt => opt.MapFrom(src => src.Profissional.Nome));
+
+            CreateMap<Paciente, PacienteAdicionarDto>().ReverseMap();
         }
     }
 }
