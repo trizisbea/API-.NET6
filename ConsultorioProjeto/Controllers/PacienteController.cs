@@ -73,5 +73,39 @@ namespace ConsultorioProjeto.Controllers
                 : BadRequest("Erro ao salvar o paciente");
         }
 
+        // ****** método put ******
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, PacienteAtualizarDto paciente)
+        {
+            if (id <= 0) return BadRequest("Usuário não informado");
+
+            var pacienteBanco = await _repository.GetPacientesByIdAsync(id);
+
+            var pacienteAtualizar = _mapper.Map(paciente, pacienteBanco);
+
+            _repository.Update(pacienteAtualizar);
+
+            return await _repository.SaveChangesAsync()
+                 ? Ok("Paciente atualizado com sucesso")
+                 : BadRequest("Erro ao atualizar o paciente");
+        }
+
+        // ****** método delete ******
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (id <= 0) return BadRequest("Paciente inválido");
+
+            var pacienteExcluir = await _repository.GetPacientesByIdAsync(id);
+
+            if (pacienteExcluir == null) return NotFound("Paciente não encontrado");
+
+            _repository.Delete(pacienteExcluir);
+
+            return await _repository.SaveChangesAsync()
+                 ? Ok("Paciente deletado com sucesso")
+                 : BadRequest("Erro ao deletar o paciente");
+        }
+
     }
 }

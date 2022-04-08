@@ -19,6 +19,9 @@ namespace ConsultorioProjeto.Helpers
             .ForMember(dest => dest.Profissional, opt => opt.MapFrom(src => src.Profissional.Nome));
 
             CreateMap<Paciente, PacienteAdicionarDto>().ReverseMap();
+
+            CreateMap<Paciente, PacienteAtualizarDto>().ReverseMap()
+            .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null)); 
         }
     }
 }
